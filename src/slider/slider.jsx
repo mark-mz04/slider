@@ -8,7 +8,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 export const Slider = () => {
 	const imgList = [
-		<img className={`${s.img}`} key={0} src={slide1} />,
+		<img className={`${s.img}`} key={0} src={slide1} alt='img'/>,
 		<img className={`${s.img}`} key={1} src={slide2} />,
 		<img className={`${s.img}`} key={2} src={slide3} />,
 		<img className={`${s.img}`} key={3} src={slide4} />,

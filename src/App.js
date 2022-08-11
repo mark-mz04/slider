@@ -1,9 +1,8 @@
-import './App.css';
 import { Slider } from './slider/slider';
 
 function App() {
 	return (
-		<div className='App'>
+		<div>
 			<Slider />
 		</div>
 	);
